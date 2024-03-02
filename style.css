@@ -81,7 +81,7 @@ a {
   margin-inline: auto;
   text-align: center;
 }
-@media (max-width: 592px) {
+@media (min-width: 592px) {
   .form {
     padding: 30px;
   }
@@ -93,7 +93,7 @@ a {
   font-weight: 700;
   margin-bottom: 12px;
 }
-@media (max-width: 592px) {
+@media (min-width: 592px) {
   .form__title {
     font-size: 26px;
   }
@@ -106,7 +106,7 @@ a {
   margin-bottom: 60px;
   opacity: 0, 6;
 }
-@media (max-width: 592px) {
+@media (min-width: 592px) {
   .form__desc {
     font-size: 22px;
   }

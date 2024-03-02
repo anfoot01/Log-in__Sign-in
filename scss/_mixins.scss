@@ -4,19 +4,19 @@ $dekstop: 992px;
 
 
 @mixin mobile{
-    @media(max-width: $mobile){
+    @media(min-width: $mobile){
         @content;
     }
 }
 
 @mixin tablet{
-    @media(max-width: $tablet){
+    @media(min-width: $tablet){
         @content;
     }
 }
 
 @mixin dekstop{
-    @media(max-width: $dekstop){
+    @media(min-width: $dekstop){
         @content;
     }
 }
